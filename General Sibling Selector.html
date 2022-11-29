@@ -1,0 +1,27 @@
+<!doctype html>
+<html>
+<head>
+    <title>General Sibling selector</title>
+    <style>
+div~p{
+    background-color: yellow;
+}
+    </style>
+</head>
+<body>
+    <p>This paragraph is outside Div</p>
+    <div>
+        <p>This paragraph is inside Div</p>
+        <h1>Hello</h1>
+        <p>This is also inside Div</p>
+    </div>
+    <p>This is outside Div (adjacent sibling)</p>
+    <p>This is outside Div (adjacent sibling)</p>
+    <p>This is outside Div (adjacent sibling)</p>
+    <div>
+        <p>This paragraph is inside Div</p>
+        <p>This is also inside Div</p>
+    </div>
+    <p>This is outside Div (adjacent sibling)</p>
+</body>
+</html>
